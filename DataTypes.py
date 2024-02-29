@@ -14,6 +14,10 @@ print(x)
 print(y)
 print(id(x))  # 4324152360
 print(id(y))  # 4324152360
+print("Casting")
+print(str(x))
+print(int(x))
+print(float(x))
 
 # A-Z a-z 0-9
 min_bal = 100

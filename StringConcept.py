@@ -90,7 +90,8 @@ print(a == b)  # True
 
 p = "test!"
 q = "test!"
-print(p is q)  # True
+print(p is q)
+print(p is not q)  # True
 print(p == q)  # True
 
 h = "US !"

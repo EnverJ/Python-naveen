@@ -8,7 +8,8 @@ s1 = {100, "Tom", True, 12.33}
 s2 = {100, 200, 100, 200, 300}
 print(s2)  # {200, 100, 300}
 print(s1)  # {True, 100, 12.33, 'Tom'}
-
+s3 = {1, 2, 3, 3, 3, 3, 3, 3, 3, 3}
+print(s3)
 # set() Function. set is not ordered based
 s3 = set("Python")
 print(s3)  # {'y', 'h', 'o', 'n', 'P', 't'}
