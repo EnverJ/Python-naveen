@@ -4,8 +4,6 @@ class Base(object):
 
 class Child(Base):
     pass  # Empty class
-
-
 # Test Code
 print(issubclass(Child, Base))  # True
 print(issubclass(Base, Child))  # False
